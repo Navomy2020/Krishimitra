@@ -1,0 +1,16 @@
+{
+  "chosen_model": "stage2 (fine-tuned)",
+  "val_top1": 0.7952907256126862,
+  "val_top3": 0.9519461797212878,
+  "stage1_val": {
+    "loss": 0.7986895442008972,
+    "acc": 0.7299375534057617,
+    "top3": 0.9221528172492981
+  },
+  "stage2_val": {
+    "loss": 0.5984636545181274,
+    "acc": 0.7952907085418701,
+    "top3": 0.9519461989402771
+  },
+  "note": "Validation split is also used for early stopping, so these numbers are slightly optimistic."
+}
