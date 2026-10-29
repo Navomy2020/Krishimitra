@@ -1,0 +1,101 @@
+{
+  "_note": "Keyed by class id, so the order of the model's outputs does not matter here. The order comes from paddy_model/class_names.json. The advice lines are generic cultural practices only (no chemical names or doses), matching the Crop Health Agent design. Replace them with the KAU-sourced Generic Treatment Protocol table when it is ready.",
+  "diseases": {
+    "bacterial_leaf_blight": {
+      "name": "Bacterial Leaf Blight",
+      "healthy": false,
+      "advice": [
+        "Avoid excess nitrogen fertiliser.",
+        "Keep drainage good and avoid long periods of standing water.",
+        "Remove infected stubble and weeds around the field.",
+        "Use clean, certified seed next season."
+      ]
+    },
+    "bacterial_leaf_streak": {
+      "name": "Bacterial Leaf Streak",
+      "healthy": false,
+      "advice": [
+        "Avoid excess nitrogen fertiliser.",
+        "Control weeds and volunteer rice on the bunds.",
+        "Do not let water flow from infected plots into healthy ones.",
+        "Use clean, certified seed next season."
+      ]
+    },
+    "bacterial_panicle_blight": {
+      "name": "Bacterial Panicle Blight",
+      "healthy": false,
+      "advice": [
+        "Avoid excess nitrogen and very dense sowing.",
+        "Use healthy, certified seed.",
+        "Avoid water stress around flowering.",
+        "Note which plots are affected so you can compare next season."
+      ]
+    },
+    "blast": {
+      "name": "Rice Blast",
+      "healthy": false,
+      "advice": [
+        "Apply nitrogen in split doses and avoid excess.",
+        "Keep the field evenly irrigated and avoid water stress.",
+        "Remove infected residue and weeds that can carry the disease.",
+        "Choose blast-tolerant varieties next season."
+      ]
+    },
+    "brown_spot": {
+      "name": "Brown Spot",
+      "healthy": false,
+      "advice": [
+        "Correct nutrient shortages with balanced fertilisation, especially potassium.",
+        "Avoid water stress.",
+        "Use healthy seed and destroy infected residue."
+      ]
+    },
+    "dead_heart": {
+      "name": "Dead Heart (stem borer damage)",
+      "healthy": false,
+      "advice": [
+        "Remove and destroy affected tillers early.",
+        "Avoid excess nitrogen and late planting.",
+        "Destroy stubble after harvest.",
+        "Check neighbouring plots for the same symptom."
+      ]
+    },
+    "downy_mildew": {
+      "name": "Downy Mildew",
+      "healthy": false,
+      "advice": [
+        "Improve drainage and avoid long periods of wet leaves.",
+        "Avoid dense planting.",
+        "Remove and destroy infected plants.",
+        "Use certified seed."
+      ]
+    },
+    "hispa": {
+      "name": "Rice Hispa",
+      "healthy": false,
+      "advice": [
+        "Clip and destroy leaf tips where the beetle larvae are feeding.",
+        "Keep the bunds free of weeds.",
+        "Avoid excess nitrogen.",
+        "Check nearby plots, because hispa spreads between fields."
+      ]
+    },
+    "normal": {
+      "name": "Healthy Leaf",
+      "healthy": true,
+      "advice": [
+        "No disease found. Keep checking your plants every few days."
+      ]
+    },
+    "tungro": {
+      "name": "Tungro",
+      "healthy": false,
+      "advice": [
+        "Remove and destroy infected plants early.",
+        "Control weeds and plant at the same time as your neighbours.",
+        "Watch for green leafhoppers, which carry the virus.",
+        "Choose tungro-tolerant varieties next season."
+      ]
+    }
+  }
+}
