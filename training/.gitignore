@@ -1,0 +1,16 @@
+# Raw Kaggle images (~1 GB) - each machine downloads its own copy
+data/
+
+# Intermediate / resumable checkpoints - only the final export in models/ is committed
+outputs/checkpoints/
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Never commit the Kaggle API token
+kaggle.json
+
+# Smoke-test outputs (CPU dry run)
+outputs/smoke/
